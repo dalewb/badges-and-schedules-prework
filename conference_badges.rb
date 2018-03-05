@@ -1,7 +1,7 @@
 speakers = %w(Edsger Ada Charles Alan Grace Linus Matz)
 
 def badge_maker(name)
-  "Hello, my name is #{name}"
+  "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(speakers)
@@ -11,7 +11,7 @@ end
 def assign_rooms(speakers)
   rooms = [] 
   speakers.each_with_index do |name, idx|
-    rooms << "Hello, #{name}! You'll be assigned to room #{idx+1}"
+    rooms << "Hello, #{name}! You'll be assigned to room #{idx+1}!"
   end 
   rooms 
 end 
